@@ -311,8 +311,8 @@
                 listItem.textContent = 'content: ' + content;
                 */
                 /* revList.appendChild(listItem); */
-                document.getElementById('reviewList').appendChild(card);
-            }arguments
+                /* document.getElementById('reviewList').appendChild(card); */
+            /* }arguments */
             // 編集ボタンのクリックイベントを設定
 			document.querySelectorAll('.edit-button').forEach(button => {
 			    button.addEventListener('click', function() {
@@ -338,7 +338,8 @@
 			        $('#editModal').modal('show'); // jQueryを使用してモーダルを表示
 			    });
 			});
-			
+
+		    /*
 			// 保存ボタンのクリックイベントを設定
 			document.getElementById('saveChanges').addEventListener('click', function() {
 			    const reviewId = document.getElementById('reviewId').value;
@@ -379,7 +380,8 @@
 			    });
 			});
         };
-        
+        */
+		    
         document.getElementById('saveChanges').addEventListener('click', function() {
 	        const reviewId = reviewToSome;
 	        const content = document.getElementById('editContent').value;
